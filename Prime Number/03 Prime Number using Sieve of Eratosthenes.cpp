@@ -32,7 +32,7 @@ void primeGen(int n)
 
 
 
-
+    is_prime[2]=1;
     prime.push_back(2);
     for(int i=1; i<=n; i+=2)
     {
